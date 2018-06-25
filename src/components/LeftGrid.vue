@@ -8,7 +8,7 @@
                     <figcaption>
                         <h2>{{ work.title }}</h2>
                         <p>{{ work.description | overview}}</p>
-                        <a :href="work.slug | link">Detail</a>
+                        <router-link :to="work.slug | link">Detail</router-link>
                     </figcaption>
                 </figure>
             </li>

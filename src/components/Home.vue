@@ -28,6 +28,7 @@ import RightGrid from './RightGrid'
 import Footer from './Footer'
 
 export default {
+    name: 'Home',
     components: {
         appHeader: Header,
         appHeadline: Headline,

@@ -20,6 +20,7 @@ const store = new Vuex.Store({
       })
       return odd
     },
+
     even (state) {
       let even = []
       state.works.forEach(work => {
@@ -27,6 +28,12 @@ const store = new Vuex.Store({
           even.push(work)
       })
       return even
+    },
+
+    detail (state) {
+      return slug => state.works.find(work => {
+        return work.slug === slug
+      })
     }
   }
 })

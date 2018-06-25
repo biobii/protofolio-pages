@@ -14,15 +14,6 @@
             <figure class="effect-oscar">
                 <figcaption></figcaption>
             </figure>
-
-            <!-- <figure class="effect-oscar">
-                <img src="../assets/images/home-images/image-1.jpg" alt="" class="img-responsive"/>
-                <figcaption>
-                    <h2>Eliana Dedda<span> Identity</span></h2>
-                    <p>Personal Brand Identity.</p>
-                    <a href="works-details.html">View more</a>
-                </figcaption>
-            </figure> -->
         </section>
     </div>
 </template>
