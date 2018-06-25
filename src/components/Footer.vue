@@ -1,6 +1,6 @@
 <template>
     <footer role="footer">
-        <img src="../assets/images/about-images/about-image-1.jpg" title="author" alt="Author"/>
+        <img src="../assets/images/me-sketch.jpg" title="author" alt="Author"/>
         
         <nav role="footer-nav">
             <ul>
@@ -29,8 +29,13 @@ export default {
 </script>
 
 <style scoped>
+    footer {
+        padding-top: 0;
+    }
+
     img[title="author"] {
         display: block;
         margin: 0 auto;
+        width: 30%;
     }
 </style>

@@ -27,9 +27,9 @@
 
                 <div class="work-images grid">
                     <ul class="grid-lod effect-2" id="grid">
-                        <li><img src="../assets/images/work/works-image-1.jpg" alt="" class="img-responsive"/></li>
-                        <li><img src="../assets/images/work/works-image-2.jpg" alt="" class="img-responsive"/></li>
-                        <li><img src="../assets/images/work/works-image-3.jpg" alt="" class="img-responsive"/></li>
+                        <li v-for="(image, index) in work.images" :key="index">
+                            <img :src="thumbnail(image)" alt="" class="img-responsive"/>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -45,6 +45,7 @@
 import Header from './Header'
 import Footer from './Footer'
 import NotFound from './NotFound'
+import loadImage from '../mixins/loadimage'
 
 export default {
     name: 'Detail',
@@ -58,7 +59,8 @@ export default {
         appHeader: Header,
         appFooter: Footer,
         appNotFound: NotFound
-    }
+    },
+    mixins: [loadImage]
 }
 </script>
 

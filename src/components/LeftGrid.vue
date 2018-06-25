@@ -4,19 +4,22 @@
 
             <li v-for="work in works" :key="work.id">
                 <figure class="effect-oscar">
-                    <img src="../assets/images/home-images/image-2.jpg" alt="" class="img-responsive"/>
+                    <img :src="thumbnail(work.thumbnail)" alt="" class="img-responsive"/>
                     <figcaption>
                         <h2>{{ work.title }}</h2>
-                        <p>{{ work.description | overview}}</p>
+                        <p>{{ work.description | overview }}</p>
                         <router-link :to="work.slug | link">Detail</router-link>
                     </figcaption>
                 </figure>
             </li>
+
         </ul>
     </section>
 </template>
 
 <script>
+import loadImage from '../mixins/loadimage'
+
 export default {
     computed: {
         works () {
@@ -31,10 +34,17 @@ export default {
         link (value) {
             return `detail/${value}`
         }
-    }
+    },
+    mixins: [loadImage]
 }
 </script>
 
-<style>
+<style scoped>
+    li {
+        list-style: none;
+    }
 
+    figcaption h2 {
+        margin-top: 0;
+    }
 </style>
