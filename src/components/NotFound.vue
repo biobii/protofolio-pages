@@ -13,7 +13,7 @@
                 </section>
 
                 <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
-                    <img src="../assets/images/about-images/about-image-1.jpg" alt="" class="img-responsive"/>
+                    <img src="../assets/images/not-found.jpg" alt="" class="img-responsive"/>
                     <figure class="effect-oscar">
                         <figcaption></figcaption>
                     </figure>

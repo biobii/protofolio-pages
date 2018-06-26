@@ -9,7 +9,7 @@
             </div>
             <div class="col-md-10">
                 <div class="progress">
-                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
+                    <div class="progress-bar progress-color-orange" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
                         86%
                     </div>
                 </div>
@@ -20,7 +20,7 @@
             </div>
             <div class="col-md-10">
                 <div class="progress">
-                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                    <div class="progress-bar progress-color-blue" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
                         70%
                     </div>
                 </div>
@@ -31,7 +31,7 @@
             </div>
             <div class="col-md-10">
                 <div class="progress">
-                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                    <div class="progress-bar progress-color-purple" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
                         80%
                     </div>
                 </div>
@@ -42,8 +42,30 @@
             </div>
             <div class="col-md-10">
                 <div class="progress">
-                    <div class="progress-bar progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 78%;">
+                    <div class="progress-bar progress-color-red" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 78%;">
                         78%
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-1 col-md-offset-1">
+                <p class="skill-name">jQuery</p>
+            </div>
+            <div class="col-md-10">
+                <div class="progress">
+                    <div class="progress-bar progress-color-aqua" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 62%;">
+                        62%
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-1 col-md-offset-1">
+                <p class="skill-name">Vue</p>
+            </div>
+            <div class="col-md-10">
+                <div class="progress">
+                    <div class="progress-bar progress-color-toska" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 51%;">
+                        51%
                     </div>
                 </div>
             </div>
@@ -89,4 +111,29 @@ export default {
     main[role="main-home-wrapper"] {
         padding-bottom: 40px;
     }
+
+    .progress-color-orange {
+        background-color: #f0932b;
+    }
+
+    .progress-color-blue {
+        background-color: #3498db;
+    }
+
+    .progress-color-purple {
+        background-color: #7158e2;
+    }
+
+    .progress-color-red {
+        background-color: #e66767;
+    }
+
+    .progress-color-aqua {
+        background-color: #4bcffa;
+    }
+
+    .progress-color-toska {
+        background-color: #1abc9c;
+    }
+
 </style>

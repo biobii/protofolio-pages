@@ -4,6 +4,7 @@
         <hr>
 
         <img src="../assets/images/me-sketch.jpg" title="author" alt="Author"/>
+        <h3><i class="fa fa-envelope" aria-hidden="true"></i> biobii.game@gmail.com</h3>
         
         <nav role="footer-nav">
             <ul>
@@ -35,6 +36,7 @@ export default {
     footer {
         padding-top: 5px;
         margin-top: 0;
+        margin-bottom: 0;
     }
 
     img[title="author"] {
@@ -57,5 +59,17 @@ export default {
         border-color: #fb5353;
         border-width: 2px;
         width: 60px;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        color: #757575;
+    }
+
+    nav[role="footer-nav"] {
+        padding-top: 8px;
+        padding-bottom: 8px;
     }
 </style>
