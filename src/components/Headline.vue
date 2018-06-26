@@ -10,7 +10,7 @@
         </section>
 
         <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
-            <img src="../assets/images/me.jpg" alt="" class="img-responsive"/>
+            <img src="../assets/images/me.jpg" alt="Mohammad Robih T.Z" title="Mohammad Robih T.Z" class="img-responsive"/>
             <figure class="effect-oscar">
                 <figcaption></figcaption>
             </figure>
@@ -31,5 +31,9 @@ export default {
 
     img {
         border-radius: 6px;
+    }
+
+    img:hover {
+        transform: rotate(4deg) scale(0.9);
     }
 </style>

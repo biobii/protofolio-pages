@@ -1,5 +1,8 @@
 <template>
     <footer role="footer">
+        <h2>Hubungi</h2>
+        <hr>
+
         <img src="../assets/images/me-sketch.jpg" title="author" alt="Author"/>
         
         <nav role="footer-nav">
@@ -30,12 +33,29 @@ export default {
 
 <style scoped>
     footer {
-        padding-top: 0;
+        padding-top: 5px;
+        margin-top: 0;
     }
 
     img[title="author"] {
         display: block;
         margin: 0 auto;
-        width: 30%;
+        padding-top: 0;
+        width: 300px;
+        height: 300px;
+    }
+
+    h2 {
+        color: #404040;
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 0.5px;
+    }
+
+    hr {
+        margin: 4px auto 20px auto;
+        border-color: #fb5353;
+        border-width: 2px;
+        width: 60px;
     }
 </style>

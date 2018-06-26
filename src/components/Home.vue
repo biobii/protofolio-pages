@@ -14,6 +14,8 @@
                 
                 <div class="clearfix"></div>
                 
+                <app-skills></app-skills>
+
                 <app-footer></app-footer>
             </div>
         </main>
@@ -25,6 +27,7 @@ import Header from './Header'
 import Headline from './Headline'
 import LeftGrid from './LeftGrid'
 import RightGrid from './RightGrid'
+import Skills from './Skills'
 import Footer from './Footer'
 
 export default {
@@ -34,6 +37,7 @@ export default {
         appHeadline: Headline,
         appLeftGrid: LeftGrid,
         appRightGrid: RightGrid,
+        appSkills: Skills,
         appFooter: Footer
     }
 }
@@ -48,7 +52,7 @@ export default {
     }
 
     hr {
-        margin: 0 auto 20px auto;
+        margin: 4px auto 20px auto;
         border-color: #fb5353;
         border-width: 2px;
         width: 40px;

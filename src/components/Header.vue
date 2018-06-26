@@ -15,9 +15,9 @@ export default {
 <style scoped>
     h1 a {
         font-family: 'Open Sans', sans-serif;
-        font-size: 26px;
+        font-size: 24px;
         color: #525252;
         text-decoration: none;
-        margin-left: 30px;
+        margin-left: 38px;
     }
 </style>
