@@ -85,7 +85,7 @@ export default {
             const section = document.getElementsByTagName('h2')[0]
 
             document.addEventListener('scroll', function (e) {
-                if (window.scrollY >= section.offsetTop && !stop) {
+                if (window.scrollY >= section.offsetTop + 400 && !stop) {
                     for (let i = 0; i < el.length; i++) {
                         let width = 0;
                         let max = parseInt(el[i].getAttribute('state-value'))
@@ -143,7 +143,7 @@ export default {
     }
 
     .progress-color-orange {
-        background-color: #f0932b;
+        background-color: #f75b13;
     }
 
     .progress-color-blue {
@@ -155,7 +155,7 @@ export default {
     }
 
     .progress-color-red {
-        background-color: #e66767;
+        background-color: #dd6565;
     }
 
     .progress-color-aqua {
