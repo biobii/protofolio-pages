@@ -1,6 +1,6 @@
 <template>
     <footer role="footer">
-        <h2>Hubungi</h2>
+        <h2>Kontak</h2>
         <hr>
 
         <img src="../assets/images/me-sketch.jpg" title="author" alt="Author"/>

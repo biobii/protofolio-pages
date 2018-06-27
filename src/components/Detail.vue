@@ -51,6 +51,12 @@ import loadImage from '../mixins/loadimage'
 
 export default {
     name: 'Detail',
+    mounted () {
+        window.scroll({
+            top: 0,
+            behavior: 'smooth'
+        })
+    },
     computed: {
         work () {
             let slug = this.$route.params.slug
