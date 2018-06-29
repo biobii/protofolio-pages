@@ -8,7 +8,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-4">
                             <header role="work-title">
                                 <h2>{{ work.title }}</h2>
-                                <a v-if="work.link" :href="work.link">Live Demo <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                                <a v-if="work.link" :href="work.link" target="_blank">Live Demo <i class="fa fa-external-link" aria-hidden="true"></i></a>
                                 <a id="no-link" v-else href="#">Demo tidak tersedia</a>
                             </header>
                         </div>

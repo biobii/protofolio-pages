@@ -2,27 +2,18 @@
     <footer role="footer">
         <h2>Kontak</h2>
         <hr>
-
-        <img src="../assets/images/me-sketch.jpg" title="author" alt="Author"/>
-        <h3><i class="fa fa-envelope" aria-hidden="true"></i> biobii.game@gmail.com</h3>
         
-        <nav role="footer-nav">
-            <ul>
-                <li><a href="https://medium.com/@biobii" title="Work">Medium</a></li>
-                <li><a href="#" title="About">About</a></li>
-                <li><a href="#" title="Blog">Blog</a></li>
-                <li><a href="#" title="Contact">Contact</a></li>
-            </ul>
-        </nav>
+        <!-- <img src="../assets/images/me-sketch.jpg" title="author" alt="Author"/> -->
+        <h3><i class="fa fa-envelope" aria-hidden="true"></i> biobii.game@gmail.com</h3>
 
         <ul role="social-icons">
-            <li><a href="https://twitter.com/biobii_"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="#"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/biobii" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100016015544807" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/biobii/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
         </ul>
         <p class="copy-right">&copy; 2018 Portofolio - Biobii</p>
-        <p class="copy-right">Template oleh <a href="#">avana LLC</a>, diedit oleh Biobii</p>
+        <p class="copy-right">Template oleh <a href="https://www.free-css.com/free-css-templates/page225/avana" target="_blank">avana LLC</a>, diedit oleh Biobii</p>
     </footer>
 </template>
 
@@ -66,10 +57,12 @@ export default {
         font-weight: 600;
         text-align: center;
         color: #757575;
+        margin-bottom: 18px;
     }
 
     nav[role="footer-nav"] {
         padding-top: 8px;
         padding-bottom: 8px;
     }
+
 </style>

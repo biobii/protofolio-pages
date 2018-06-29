@@ -5,6 +5,7 @@ import Vuex from 'vuex'
 import App from './App'
 import router from './router'
 import data from './data'
+import axios from 'axios'
 
 Vue.config.productionTip = false
 Vue.use(Vuex)
@@ -20,7 +21,6 @@ const store = new Vuex.Store({
       })
       return odd
     },
-
     even (state) {
       let even = []
       state.works.forEach(work => {
@@ -29,11 +29,16 @@ const store = new Vuex.Store({
       })
       return even
     },
-
     detail (state) {
       return slug => state.works.find(work => {
         return work.slug === slug
       })
+    },
+    activities (state) {
+      return state.activities
+    },
+    posts (state) {
+      return state.posts 
     }
   }
 })

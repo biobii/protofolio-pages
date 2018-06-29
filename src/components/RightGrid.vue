@@ -30,7 +30,7 @@ export default {
         },
 
         link (value) {
-            return `detail/${value}`
+            return `work/${value}`
         }
     },
     mixins: [loadImage]

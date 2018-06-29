@@ -97,8 +97,8 @@ export default {
                                 clearInterval(loadingInterval)
                             } else {
                                 width++
-                                el[i].textContent = width + '%'
                                 el[i].style.width = width + '%'
+                                el[i].textContent = width + '%'
                             }
                         }, 10)
                     }

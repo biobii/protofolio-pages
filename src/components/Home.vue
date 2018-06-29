@@ -16,6 +16,8 @@
                 
                 <app-skills></app-skills>
 
+                <app-activity></app-activity>
+                
                 <app-footer></app-footer>
             </div>
         </main>
@@ -28,6 +30,7 @@ import Headline from './Headline'
 import LeftGrid from './LeftGrid'
 import RightGrid from './RightGrid'
 import Skills from './Skills'
+import Activity from './Activity'
 import Footer from './Footer'
 
 export default {
@@ -38,6 +41,7 @@ export default {
         appLeftGrid: LeftGrid,
         appRightGrid: RightGrid,
         appSkills: Skills,
+        appActivity: Activity,
         appFooter: Footer
     }
 }
