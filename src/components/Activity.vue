@@ -4,7 +4,7 @@
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
                 <article role="pge-title-content" class="blog-header">
                     <header>
-                        <h2><span>Aktivitas</span> Menulis opini dan dokumentasi belajar</h2>
+                        <h2><span>Aktivitas</span> Menulis dan mendokumentasikan hasil belajar</h2>
                     </header>
                     <p>Menulis di Medium untuk mendokumentasikan hasil belajar dan berbagi sesuatu yang menurut saya menarik.</p>
                 </article>
