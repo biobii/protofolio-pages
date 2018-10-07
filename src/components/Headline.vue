@@ -5,12 +5,12 @@
                 <header>
                     <h2 id="greet"><span>Portofolio</span> Mohammad Robih T.Z</h2>
                 </header>
-                <p style="text-indent: 2em">Hai, saya Obi. Saat ini sedang kuliah di Universitas Islam Negeri Maulana Malik Ibrahim Malang. Saya tertarik dengan web development terutama bagian backend.</p>
+                <p style="text-indent: 2em">Hai, saya seorang mahasiswa yang tertarik dengan web development, khususnya di bagian backend. Saat ini menggunakan PHP framework dan sedang belajar NodeJs.</p>
             </article>
         </section>
 
         <section class="col-xs-12 col-sm-6 col-md-6 col-lg-6 grid">
-            <img src="../assets/images/me.jpg" alt="Mohammad Robih T.Z" title="Mohammad Robih T.Z" class="img-responsive"/>
+            <img src="../assets/images/me.jpeg" alt="Mohammad Robih T.Z" title="Mohammad Robih T.Z" class="img-responsive"/>
             <figure class="effect-oscar">
                 <figcaption></figcaption>
             </figure>

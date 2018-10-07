@@ -1,7 +1,7 @@
 <template>
     <main role="main-home-wrapper" class="container">
         <div class="row">
-            <h2>Progress</h2>
+            <h2>Skills Progress</h2>
             <hr>
             
             <div class="col-md-1 col-md-offset-1">
@@ -22,14 +22,14 @@
                 </div>
             </div>
 
-            <div class="col-md-1 col-md-offset-1">
+            <!-- <div class="col-md-1 col-md-offset-1">
                 <p class="skill-name">PHP</p>
             </div>
             <div class="col-md-10">
                 <div class="progress">
                     <div class="progress-bar progress-color-purple" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;" state-value="80">80%</div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="col-md-1 col-md-offset-1">
                 <p class="skill-name">Laravel</p>
@@ -41,11 +41,11 @@
             </div>
 
             <div class="col-md-1 col-md-offset-1">
-                <p class="skill-name">jQuery</p>
+                <p class="skill-name">NodeJs</p>
             </div>
             <div class="col-md-10">
                 <div class="progress">
-                    <div class="progress-bar progress-color-aqua" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 62%;" state-value="62">62%</div>
+                    <div class="progress-bar progress-color-green" role="progressbar" aria-valuenow="42" aria-valuemin="0" aria-valuemax="100" style="width: 42%;" state-value="42">42%</div>
                 </div>
             </div>
 
@@ -129,7 +129,7 @@ export default {
         margin: 8px auto 20px auto;
         border-color: #fb5353;
         border-width: 2px;
-        width: 80px;
+        width: 140px;
     }
 
     .skill-name {
@@ -147,7 +147,7 @@ export default {
     }
 
     .progress-color-blue {
-        background-color: #3498db;
+        background-color: #0097e6;
     }
 
     .progress-color-purple {
@@ -155,11 +155,11 @@ export default {
     }
 
     .progress-color-red {
-        background-color: #dd6565;
+        background-color: #ff4d4d;
     }
 
-    .progress-color-aqua {
-        background-color: #4bcffa;
+    .progress-color-green {
+        background-color: #A3CB38;
     }
 
     .progress-color-toska {

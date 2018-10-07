@@ -7,7 +7,7 @@
         <h3><i class="fa fa-envelope" aria-hidden="true"></i> biobii.game@gmail.com</h3>
 
         <ul role="social-icons">
-            <li><a href="https://twitter.com/biobii" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/biobii_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
             <li><a href="https://www.facebook.com/profile.php?id=100016015544807" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
             <li><a href="https://www.linkedin.com/in/biobii/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             <li><a href="#" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>

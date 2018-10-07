@@ -16,7 +16,7 @@ export default {
             slug: 'idlearn',
             thumbnail: 'work-idlearn-1.png',
             images: ['work-idlearn-1.png', 'work-idlearn-2.png', 'work-idlearn-3.png', 'work-idlearn-4.png'],
-            link: 'http://idlearn.servisperut.com',
+            link: null,
             tech: 'PHP 7, Laravel, Vue.',
             description: 'IDLearn merupakan website untuk pengumpulan tugas yang menghubungkan antara dosen, asisten laboratorium dan praktikan. Aplikasi ini juga dapat digunakan untuk mengerjakan soal kuis yang telah dibuat sebelumnya. IDLearn dibangun menggunakan PHP 7 dengan framework Laravel dan Vue sebagai frontend Javascript framework. Aplikasi ini dikembangkan sebagai tugas salah satu mata kuliah semester empat.'
         }
@@ -40,10 +40,10 @@ export default {
         },
         {
             id: 2,
-            title: 'Pengalaman Public Speaking Pertama',
-            link: 'https://medium.com/@biobii/pengalaman-public-speaking-pertama-bersama-malang-php-user-group-6babd53857b5',
-            thumbnail: 'https://cdn-images-1.medium.com/max/800/1*y3SarKIerXyMrYzpPQd0Og.jpeg',
-            date: '25 Mei 2018'
+            title: 'Filter Gambar Mean, Median dan Batas Menggunakan Java',
+            link: 'https://medium.com/easyread/filter-gambar-dengan-mean-median-dan-batas-menggunakan-java-54d87835c6be',
+            thumbnail: 'https://cdn-images-1.medium.com/max/800/1*CaFCtZhNyb3bOq1uQhWMSg.png',
+            date: '06 Oktober 2018'
         },
         {
             id: 3,
