@@ -1,5 +1,5 @@
 <template>
-    <main role="main-home-wrapper" class="container">
+    <main role="main-home-wrapper" class="container" style="margin-top: 20px">
         <div class="row">
             <h2>Skills Progress</h2>
             <hr>

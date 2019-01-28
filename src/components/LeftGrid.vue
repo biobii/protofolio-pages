@@ -42,6 +42,8 @@ export default {
 <style scoped>
     li {
         list-style: none;
+        max-height: 250px;
+        margin: 8px 0;
     }
 
     figcaption h2 {

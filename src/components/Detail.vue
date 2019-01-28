@@ -17,8 +17,11 @@
                             <section>
                                 <p id="work-description">{{ work.description }}</p>
 
-                                <p><strong>Teknologi</strong><br/>
+                                <p><strong>Teknologi:</strong><br/>
                                 {{ work.tech }}</p>
+
+                                <p><strong>Peran Saya:</strong><br/>
+                                {{ work.role }}</p>
 
                             </section>
                         </div>
