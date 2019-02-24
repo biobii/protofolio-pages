@@ -8,10 +8,10 @@
             <section class="section">
                 <div class="container">
                     <div class="card card-profile shadow mt--300">
-                        <div class="px-4">
+                        <div class="px-4" style="z-index:1">
                             <div class="text-center mt-5">
                                 <h3>{{ work.title }}</h3>
-                                <a v-if="work.link !== null" :href="work.link" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+                                <a v-if="work.link !== null" :href="work.link" target="_blank" class="btn btn-primary btn-sm mt-2"><i class="ni ni-send"></i> Live Demo</a>
                             </div>
                             <div class="mt-5 py-5 border-top text-center">
                                 <div class="row justify-content-center">

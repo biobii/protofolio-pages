@@ -9,7 +9,7 @@
                     <p class="lead text-white mt-3">Write something that I find interesting.</p>
                 </div>
                 <div class="col-lg-3 ml-lg-auto">
-                    <a href="https://medium.com/@biobii" target="_blank" class="btn btn-lg btn-block btn-white">Check on Medium</a>
+                    <a href="https://medium.com/@biobii" target="_blank" class="btn btn-lg btn-block btn-white"><i class="fa fa-medium" aria-hidden="true"></i> Medium</a>
                 </div>
                 </div>
             </div>

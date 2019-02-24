@@ -13,8 +13,12 @@
                         </div>
                         <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
                             <div class="card-profile-actions py-4 mt-lg-0">
-                                <a href="https://www.linkedin.com/in/biobii" target="_blank" class="btn btn-sm btn-default mr-4">LinkedIn</a>
-                                <a href="https://twitter.com/biobii_" target="_blank" class="btn btn-sm btn-info float-right">Twitter</a>
+                                <a href="https://www.linkedin.com/in/biobii" target="_blank" class="btn btn-neutral btn-twitter btn-round btn-sm mr-4">
+                                <i class="fa fa-linkedin-square"></i> LinkedIn
+                                </a>
+                                <a href="https://github.com/biobii" target="_blank" class="btn btn-neutral btn-github btn-round btn-sm float-right">
+                                <i class="fa fa-github"></i> GitHub
+                                </a>
                             </div>
                         </div>
                         <div class="col-lg-4 order-lg-1">
