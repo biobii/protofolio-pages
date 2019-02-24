@@ -1,84 +1,29 @@
 <template>
-    <main role="main-inner-wrapper" class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 ">
-                <article role="pge-title-content" class="blog-header">
-                    <header>
-                        <h2><span>Aktivitas</span> Menulis dan dokumentasi belajar</h2>
-                    </header>
-                    <p>Menulis di Medium untuk mendokumentasikan hasil belajar dan berbagi sesuatu yang menurut saya menarik.</p>
-                </article>
-
-                <ul class="grid-lod effect-2" id="grid">
-
-                    <li v-for="activity in activities" :key="activity.id">
-                        <section class="blog-content">
-                            <a :href="activity.link" target="_blank">
-                            <figure>
-                                <div class="post-date">
-                                    <span>{{ activity.date | showDate }}</span> {{ activity.date | showMonth }}
-                                </div>
-                                <img :src="activity.thumbnail"/>
-                            </figure>
-                            </a>
-                            <article>{{ activity.title }}</article>
-                        </section>
-                    </li>
-
-                </ul>
+    <section class="section section-lg pt-0 mt-5 mb-0">
+        <div class="container">
+            <div class="card bg-gradient-warning shadow-lg border-0">
+            <div class="p-5">
+                <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h3 class="text-white">I also wrote articles on Medium.</h3>
+                    <p class="lead text-white mt-3">Write something that I find interesting.</p>
+                </div>
+                <div class="col-lg-3 ml-lg-auto">
+                    <a href="https://medium.com/@biobii" target="_blank" class="btn btn-lg btn-block btn-white">Check on Medium</a>
+                </div>
+                </div>
             </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <ul class="grid-lod effect-2" id="grid">
-
-                    <li v-for="post in posts" :key="post.id">
-                        <section class="blog-content">
-                            <a :href="post.link" target="_blank">
-                            <figure>
-                                <div class="post-date">
-                                    <span>{{ post.date | showDate }}</span> {{ post.date | showMonth }}
-                                </div>
-                                <img :src="post.thumbnail" alt="" class="img-responsive"/>
-                            </figure>
-                            </a>
-                            <article>{{ post.title }}</article>
-                        </section>
-                    </li>
-
-                </ul>
             </div>
         </div>
-    </main>
+    </section>
 </template>
 
 <script>
 export default {
-    computed : {
-        activities () {
-            return this.$store.getters.activities
-        },
-        posts () {
-            return this.$store.getters.posts
-        }
-    },
-    filters: {
-        showDate (value) {
-            return value.substr(0, 2)
-        },
-        showMonth (value) {
-            return value.substr(3)
-        }
-    }
+
 }
 </script>
 
-<style scoped>
-    li {
-        list-style: none;
-    }
+<style>
 
-    main {
-        margin-bottom: 0;
-        padding-bottom: 0;
-    }
 </style>
