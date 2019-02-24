@@ -24,15 +24,15 @@
                         <div class="col-lg-4 order-lg-1">
                             <div class="card-profile-stats d-flex justify-content-center">
                                 <div>
-                                    <span class="heading">16</span>
+                                    <span class="heading">{{ countRepos }}</span>
                                     <span class="description">Repositories</span>
                                 </div>
                                 <div>
-                                    <span class="heading">101</span>
-                                    <span class="description">Starred</span>
+                                    <span class="heading">{{ countFollowing }}</span>
+                                    <span class="description">Following</span>
                                 </div>
                                 <div>
-                                    <span class="heading">15</span>
+                                    <span class="heading">{{ countFollowers }}</span>
                                     <span class="description">Followers</span>
                                 </div>
                             </div>
@@ -65,7 +65,24 @@
 
 <script>
 export default {
+    data () {
+        return {
+            countRepos: 15,
+            countFollowing: 19,
+            countFollowers: 15
+        }
+    },
+    async created () {
+        let res = await this.$axios.get(`https://api.github.com/users/biobii`)
 
+        try {
+            this.countRepos = res.data.public_repos
+            this.countFollowing = res.data.following
+            this.countFollowers = res.data.followers
+        } catch (err) {
+            //
+        }
+    }
 }
 </script>
 

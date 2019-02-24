@@ -8,6 +8,7 @@ import data from './data'
 import axios from 'axios'
 
 Vue.config.productionTip = false
+Vue.prototype.$axios = axios
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
