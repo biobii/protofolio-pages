@@ -24,6 +24,17 @@ export default {
         },
         {
           id: 3,
+          title: 'Klasifikasi Akun Github',
+          slug: 'klasifikasi-akun-github',
+          thumbnail: 'work-AI-1.png',
+          images: ['work-AI-1.png'],
+          link: 'https://biobii.github.io/AI',
+          tech: 'Vue.',
+          role: 'Latihan algoritma.',
+          description: 'Aplikasi ini dibuat untuk latihan mengimplementasikan algoritma kecerdasan buatan (jaringan syaraf tiruan) yang saya pelajari di bangku kuliah untuk mengklasifikasikan pengguna Github berdasarkan repository yang dimiliki. Terdapat tiga kategori yaitu Frontend programmer, Backend programmer dan Java programmer.'
+        },
+        {
+          id: 4,
           title: 'Porsigal',
           slug: 'porsigal',
           thumbnail: 'work-porsigal-1.png',

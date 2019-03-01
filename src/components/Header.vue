@@ -22,19 +22,24 @@
                 </div>
                 <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
                     <li class="nav-item">
-                    <a href="#portofolio" class="nav-link" role="button">
-                        <span class="nav-link-inner--text">Portofolio</span>
-                    </a>
+                        <a href="#portofolio" class="nav-link" role="button">
+                            <span class="nav-link-inner--text">Portofolio</span>
+                        </a>
                     </li>
                     <li class="nav-item">
-                    <a href="#skills" class="nav-link" role="button">
-                        <span class="nav-link-inner--text">Skills</span>
-                    </a>
+                        <a href="#skills" class="nav-link" role="button">
+                            <span class="nav-link-inner--text">Skills</span>
+                        </a>
                     </li>
                     <li class="nav-item">
-                    <a href="#contact" class="nav-link" role="button">
-                        <span class="nav-link-inner--text">Contact me</span>
-                    </a>
+                        <a href="#contact" class="nav-link" role="button">
+                            <span class="nav-link-inner--text">Contact me</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://biobii.github.io/AI" class="nav-link" role="button">
+                            <span class="nav-link-inner--text">Let's Play!</span>
+                        </a>
                     </li>
                 </ul>
 
