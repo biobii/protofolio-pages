@@ -18,10 +18,9 @@ export default new Router({
       name: 'Detail',
       component: Detail
     },
-    // {
-    //   path: '*',
-    //   name: 'Not Found',
-    //   component: NotFound
-    // }
+    {
+      path: '*',
+      redirect: '/'
+    }
   ]
 })

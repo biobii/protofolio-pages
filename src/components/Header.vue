@@ -38,7 +38,7 @@
                     </li>
                     <li class="nav-item">
                         <a href="https://biobii.github.io/AI" class="nav-link" role="button">
-                            <span class="nav-link-inner--text">Let's Play!</span>
+                            <span class="nav-link-inner--text">Artificial Intelligence</span>
                         </a>
                     </li>
                 </ul>

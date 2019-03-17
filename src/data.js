@@ -39,7 +39,7 @@ export default {
           slug: 'porsigal',
           thumbnail: 'work-porsigal-1.png',
           images: ['work-porsigal-1.png'],
-          link: 'https://porsigal.com',
+          link: null,
           tech: 'Laravel, Vue.',
           role: 'Mengerjakan bagian backend.',
           description: 'Porsigal adalah website suatu organisasi untuk mengelola data keanggotaan dan berdiskusi. Dibangun menggunakan PHP 7 dengan framework Laravel. Vue juga digunakan dalam website ini untuk menangani konsep Single Page Application.'
