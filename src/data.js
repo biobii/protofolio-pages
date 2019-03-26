@@ -13,17 +13,6 @@ export default {
         },
         {
           id: 2,
-          title: 'IDLearn',
-          slug: 'idlearn',
-          thumbnail: 'work-idlearn-1.png',
-          images: ['work-idlearn-1.png'],
-          link: null,
-          tech: 'Laravel, Bootstrap, Vue.',
-          role: 'Mengerjakan bagian backend dan beberapa tata letak.',
-          description: 'IDLearn merupakan website untuk pengumpulan tugas yang menghubungkan antara dosen, asisten laboratorium dan praktikan. Aplikasi ini juga dapat digunakan untuk mengerjakan soal kuis yang telah dibuat sebelumnya. IDLearn dibangun menggunakan PHP 7 dengan framework Laravel dan Vue sebagai frontend Javascript framework. Aplikasi ini dikembangkan sebagai tugas salah satu mata kuliah semester empat.'
-        },
-        {
-          id: 3,
           title: 'Klasifikasi Akun Github',
           slug: 'klasifikasi-akun-github',
           thumbnail: 'work-AI-1.png',
@@ -32,6 +21,17 @@ export default {
           tech: 'Vue.',
           role: 'Latihan algoritma.',
           description: 'Aplikasi ini dibuat untuk latihan mengimplementasikan algoritma kecerdasan buatan (jaringan syaraf tiruan) yang saya pelajari di bangku kuliah untuk mengklasifikasikan pengguna Github berdasarkan repository yang dimiliki. Terdapat tiga kategori yaitu Frontend programmer, Backend programmer dan Java programmer.'
+        },
+        {
+          id: 3,
+          title: 'IDLearn',
+          slug: 'idlearn',
+          thumbnail: 'work-idlearn-1.png',
+          images: ['work-idlearn-1.png'],
+          link: null,
+          tech: 'Laravel, Bootstrap, Vue.',
+          role: 'Mengerjakan bagian backend dan beberapa tata letak.',
+          description: 'IDLearn merupakan website untuk pengumpulan tugas yang menghubungkan antara dosen, asisten laboratorium dan praktikan. Aplikasi ini juga dapat digunakan untuk mengerjakan soal kuis yang telah dibuat sebelumnya. IDLearn dibangun menggunakan PHP 7 dengan framework Laravel dan Vue sebagai frontend Javascript framework. Aplikasi ini dikembangkan sebagai tugas salah satu mata kuliah semester empat.'
         },
         {
           id: 4,

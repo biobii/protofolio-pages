@@ -7,7 +7,7 @@
                         <div class="col-lg-3 order-lg-2">
                             <div class="card-profile-image">
                                 <a href="#">
-                                    <img src="https://pbs.twimg.com/profile_images/1037374718934802432/1as0GFCd_400x400.jpg" class="rounded-circle" style="z-index:1">
+                                    <img :src="asset('ava.jpg')" class="rounded-circle" style="z-index:1">
                                 </a>
                             </div>
                         </div>
@@ -64,6 +64,8 @@
 </template>
 
 <script>
+import loadImage from '../mixins/loadimage'
+
 export default {
     data () {
         return {
@@ -82,7 +84,8 @@ export default {
         } catch (err) {
             //
         }
-    }
+    },
+    mixins: [loadImage]
 }
 </script>
 
