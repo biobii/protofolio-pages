@@ -15,10 +15,27 @@
                 </div>
               </div>
               <div class="pl-4">
-                <h4 class="display-3 text-white">My Skills</h4>
-                <p class="text-white">Here are some skills based on technologies I learn.</p>
+                <h4 class="display-3 text-white">Skills</h4>
+                <p class="text-white">Here are some skills based on technology I learn.</p>
               </div>
             </div>
+
+            <div class="card shadow shadow-lg--hover mt-5 mb-5">
+              <div class="card-body">
+                <div class="d-flex px-3">
+                  <div>
+                    <div class="icon icon-shape bg-gradient-danger rounded-circle text-white">
+                      <i class="ni ni-favourite-28"></i>
+                    </div>
+                  </div>
+                  <div class="pl-4">
+                    <h5 class="title text-danger">Laravel</h5>
+                    <p>Intermediate</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
             <div class="card shadow shadow-lg--hover mt-5">
               <div class="card-body">
                 <div class="d-flex px-3">
@@ -51,21 +68,6 @@
               </div>
             </div>
 
-            <div class="card shadow shadow-lg--hover mt-5 mb-5">
-              <div class="card-body">
-                <div class="d-flex px-3">
-                  <div>
-                    <div class="icon icon-shape bg-gradient-danger rounded-circle text-white">
-                      <i class="ni ni-favourite-28"></i>
-                    </div>
-                  </div>
-                  <div class="pl-4">
-                    <h5 class="title text-danger">Laravel</h5>
-                    <p>Intermediate</p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>

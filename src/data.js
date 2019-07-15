@@ -2,47 +2,36 @@ export default {
     works: [
         {
           id: 1,
+          title: 'Tikrar: Monitoring Progres Hafalan Al-Quran',
+          slug: 'tikrar',
+          thumbnail: 'work-tikrar-1.png',
+          images: ['work-tikrar-1.png'],
+          link: 'https://tikrar.id',
+          tech: 'Laravel',
+          role: 'Mengerjakan backend (API) untuk mobile apps, sekaligus web dashboard untuk mengelola berbagai resources.',
+          description: 'Tikrar.id merupakan platform untuk monitoring progres hafalan Al-Quran berbasis mobile apps. Tikrar dibuat untuk memudahkan ustadz atau pengajar dalam suatu lembaga atau instansi dalam mengelola dan memantau perkembangan hafalan santrinya menggunakan teknologi. Beberapa fitur Tikrar diantaranya untuk mencatat monitoring hafalan Al-Quran, laporan pencapaian progres hafalan, mengelola data santri dan beberapa fitur lainnya.'
+        },
+        {
+          id: 2,
           title: 'M-Library UIN Maliki Malang',
           slug: 'm-library-uin-maliki-malang',
           thumbnail: 'work-mlibrary-1.jpg',
           images: ['work-mlibrary-1.jpg'],
           link: 'https://play.google.com/store/apps/details?id=id.ac.uin_malang.library.m_librarymaliki&hl=in',
-          tech: 'Lumen, Java.',
-          role: 'Mengerjakan bagian backend (API) untuk digunakan aplikasi mobile.',
-          description: 'M-Library atau mobile library merupakan istilah populer untuk aplikasi berbasis mobile phone untuk mengakses perpustakaan (library). Perpustakaan UIN Maulana Malik Ibrahim Malang mengembangkan M-Library ini untuk memberikan beragam alternatif pintu akses (access point) kepada user. Melalui M-Library ini, Anda dapat menelusur koleksi buku apa saja yang dimiliki oleh Perpustakaan UIN Maulana Malik Ibrahim Malang disertai informasi apakah buku tersebut masih available (tersedia) atau sedang dipinjam. Bagi anggota Perpustakaan UIN Maulana Malik Ibrahim Malang, M-Library juga menyediakan fitur untuk mengecek data pinjaman buku dengan login terlebih dahulu.'
+          tech: 'Lumen',
+          role: 'Mengerjakan backend (API) untuk digunakan aplikasi mobile.',
+          description: 'Perpustakaan UIN Maulana Malik Ibrahim Malang mengembangkan M-Library ini untuk memberikan beragam alternatif pintu akses kepada pengguna. Melalui M-Library ini, pengguna dapat menelusuri koleksi buku yang dimiliki oleh Perpustakaan UIN Maulana Malik Ibrahim Malang disertai informasi ketersediaan buku tersebut untuk dipinjam. Bagi anggota Perpustakaan UIN Maulana Malik Ibrahim Malang, M-Library juga menyediakan fitur untuk mengecek data pinjaman buku dengan login terlebih dahulu.'
         },
         {
-          id: 2,
+          id: 3,
           title: 'Klasifikasi Akun Github',
           slug: 'klasifikasi-akun-github',
           thumbnail: 'work-AI-1.png',
           images: ['work-AI-1.png'],
           link: 'https://biobii.github.io/AI',
-          tech: 'Vue.',
-          role: 'Latihan algoritma.',
-          description: 'Aplikasi ini dibuat untuk latihan mengimplementasikan algoritma kecerdasan buatan (jaringan syaraf tiruan) yang saya pelajari di bangku kuliah untuk mengklasifikasikan pengguna Github berdasarkan repository yang dimiliki. Terdapat tiga kategori yaitu Frontend programmer, Backend programmer dan Java programmer.'
-        },
-        {
-          id: 3,
-          title: 'IDLearn',
-          slug: 'idlearn',
-          thumbnail: 'work-idlearn-1.png',
-          images: ['work-idlearn-1.png'],
-          link: null,
-          tech: 'Laravel, Bootstrap, Vue.',
-          role: 'Mengerjakan bagian backend dan beberapa tata letak.',
-          description: 'IDLearn merupakan website untuk pengumpulan tugas yang menghubungkan antara dosen, asisten laboratorium dan praktikan. Aplikasi ini juga dapat digunakan untuk mengerjakan soal kuis yang telah dibuat sebelumnya. IDLearn dibangun menggunakan PHP 7 dengan framework Laravel dan Vue sebagai frontend Javascript framework. Aplikasi ini dikembangkan sebagai tugas salah satu mata kuliah semester empat.'
-        },
-        {
-          id: 4,
-          title: 'Porsigal',
-          slug: 'porsigal',
-          thumbnail: 'work-porsigal-1.png',
-          images: ['work-porsigal-1.png'],
-          link: null,
-          tech: 'Laravel, Vue.',
-          role: 'Mengerjakan bagian backend.',
-          description: 'Porsigal adalah website suatu organisasi untuk mengelola data keanggotaan dan berdiskusi. Dibangun menggunakan PHP 7 dengan framework Laravel. Vue juga digunakan dalam website ini untuk menangani konsep Single Page Application.'
+          tech: 'Vue',
+          role: 'Algoritma dan implementasi.',
+          description: 'Aplikasi ini dibuat untuk latihan mengimplementasikan algoritma kecerdasan buatan JST (jaringan syaraf tiruan) sekaligus tugas salah satu matakuliah untuk mengklasifikasikan pengguna Github berdasarkan repository yang dimiliki. Terdapat tiga kategori yaitu Frontend programmer, Backend programmer dan Java programmer.'
         }
     ],
     activities: [

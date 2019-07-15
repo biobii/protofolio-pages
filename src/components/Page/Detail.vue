@@ -11,18 +11,18 @@
                         <div class="px-4" style="z-index:1">
                             <div class="text-center mt-5">
                                 <h3>{{ work.title }}</h3>
-                                <a v-if="work.link !== null" :href="work.link" target="_blank" class="btn btn-primary btn-sm mt-2"><i class="ni ni-send"></i> Live Demo</a>
+                                <a v-if="work.link !== null" :href="work.link" target="_blank" class="btn btn-primary btn-sm mt-2"><i class="ni ni-send"></i> Lihat</a>
                             </div>
                             <div class="mt-5 py-5 border-top text-center">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-9" style="text-align:left">
-                                        <p style="text-align:left; color:#32325d;font-weight: bold">Description:</p>
+                                        <p style="text-align:left; color:#32325d;font-weight: bold">Deskripsi:</p>
                                         <p style="text-align:left">{{ work.description }}</p>
                                         
-                                        <p style="text-align:left; color:#32325d;font-weight: bold">Tech Stacks:</p>
+                                        <p style="text-align:left; color:#32325d;font-weight: bold">Teknologi:</p>
                                         <p style="text-align:left">{{ work.tech }}</p>
 
-                                        <p style="text-align:left; color:#32325d;font-weight: bold">My Role:</p>
+                                        <p style="text-align:left; color:#32325d;font-weight: bold">Peran Saya:</p>
                                         <p style="text-align:left">{{ work.role }}</p>
 
                                         <img v-for="(image, index) in work.images" :key="index" :src="thumbnail(image)" class="rounded img-fluid m-3" alt="">
