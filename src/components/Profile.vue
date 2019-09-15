@@ -44,7 +44,7 @@
                             <i class="ni location_pin mr-2"></i>Malang, Indonesia
                         </div>
                         <div class="h6 mt-4"><i class="ni business_briefcase-24 mr-2">
-                            </i>Web Developer
+                            </i>Web Developer | Backend
                         </div>
                         <div>
                             <i class="ni education_hat mr-2"></i>Maulana Malik Ibrahim State Islamic University
@@ -53,7 +53,7 @@
                     <div class="mt-5 py-5 border-top text-center">
                         <div class="row justify-content-center">
                             <div class="col-lg-9">
-                                <p>I am a PHP developer with strong passion to learn new things. I am familiar with a few PHP frameworks, and I have developed some applications using Laravel and Lumen. Currently I am curious about Go and Nodejs.</p>
+                                <p>I am a PHP developer with strong passion to learn new things. I am familiar with Laravel framework, and I have developed some applications using it. Currently I am curious about new things.</p>
                             </div>
                         </div>
                     </div>

@@ -36,11 +36,6 @@
                             <span class="nav-link-inner--text">Contact me</span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a href="https://biobii.github.io/AI" class="nav-link" role="button">
-                            <span class="nav-link-inner--text">Artificial Intelligence</span>
-                        </a>
-                    </li>
                 </ul>
 
                 <ul class="navbar-nav align-items-lg-center ml-lg-auto">
@@ -66,6 +61,12 @@
                         <a class="nav-link nav-link-icon" href="https://github.com/biobii" target="_blank" data-toggle="tooltip" title="Find me on Github">
                             <i class="fa fa-github"></i>
                             <span class="nav-link-inner--text d-lg-none">Github</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-icon" href="https://gitlab.com/biobii" target="_blank" data-toggle="tooltip" title="Find me on Gitlab">
+                            <i class="fa fa-gitlab"></i>
+                            <span class="nav-link-inner--text d-lg-none">Gitlab</span>
                         </a>
                     </li>
                 </ul>

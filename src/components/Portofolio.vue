@@ -2,7 +2,7 @@
     <section class="has-card footer" id="portofolio">
         <div class="container container-lg">
             <h4 class="text-center display-4 mb-5">Portofolio</h4>
-            <div class="row">
+            <div class="row d-flex flex-wrap justify-content-center">
 
             <div v-for="work in works" :key="work.id" class="col-md-6 mb-5 mb-md-0">
                 <div class="card card-lift--hover shadow border-0" style="height: 380px">

@@ -5,7 +5,7 @@
                 <div class="col-lg-6">
                     <h3 class="text-primary font-weight-light mb-2">Contact me at</h3>
                     <h5 class="mb-0 font-weight-light">
-                        <small><i class="ni ni-email-83"></i></small>&nbsp;biobii.game@gmail.com
+                        <small><i class="ni ni-email-83"></i></small>&nbsp;halo.robih@gmail.com
                     </h5>
                 </div>
                 <div class="col-lg-6 text-lg-center btn-wrapper">

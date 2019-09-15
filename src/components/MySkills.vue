@@ -20,7 +20,7 @@
               </div>
             </div>
 
-            <div class="card shadow shadow-lg--hover mt-5 mb-5">
+            <div class="card shadow shadow-lg--hover mt-2">
               <div class="card-body">
                 <div class="d-flex px-3">
                   <div>
@@ -30,13 +30,27 @@
                   </div>
                   <div class="pl-4">
                     <h5 class="title text-danger">Laravel</h5>
-                    <p>Intermediate</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card shadow shadow-lg--hover mt-4">
+              <div class="card-body">
+                <div class="d-flex px-3">
+                  <div>
+                    <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                      <i class="ni ni-spaceship"></i>
+                    </div>
+                  </div>
+                  <div class="pl-4">
+                    <h5 class="title text-warning">Javascript</h5>
                   </div>
                 </div>
               </div>
             </div>
             
-            <div class="card shadow shadow-lg--hover mt-5">
+            <div class="card shadow shadow-lg--hover mt-4">
               <div class="card-body">
                 <div class="d-flex px-3">
                   <div>
@@ -46,23 +60,6 @@
                   </div>
                   <div class="pl-4">
                     <h5 class="title text-primary">Bootstrap</h5>
-                    <p>Intermediate</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="card shadow shadow-lg--hover mt-5">
-              <div class="card-body">
-                <div class="d-flex px-3">
-                  <div>
-                    <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
-                      <i class="ni ni-spaceship"></i>
-                    </div>
-                  </div>
-                  <div class="pl-4">
-                    <h5 class="title text-success">Node.js</h5>
-                    <p>Beginner</p>
                   </div>
                 </div>
               </div>

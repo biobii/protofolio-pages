@@ -13,6 +13,17 @@ export default {
         },
         {
           id: 2,
+          title: 'Klasifikasi Akun Github',
+          slug: 'klasifikasi-akun-github',
+          thumbnail: 'work-AI-1.png',
+          images: ['work-AI-1.png'],
+          link: 'https://biobii.github.io/AI',
+          tech: 'Vue',
+          role: 'Algoritma dan implementasi.',
+          description: 'Aplikasi ini dibuat untuk latihan mengimplementasikan algoritma kecerdasan buatan JST (jaringan syaraf tiruan) sekaligus tugas salah satu matakuliah untuk mengklasifikasikan pengguna Github berdasarkan repository yang dimiliki. Terdapat tiga kategori yaitu Frontend programmer, Backend programmer dan Java programmer.'
+        },
+        {
+          id: 3,
           title: 'M-Library UIN Maliki Malang',
           slug: 'm-library-uin-maliki-malang',
           thumbnail: 'work-mlibrary-1.jpg',
@@ -23,15 +34,26 @@ export default {
           description: 'Perpustakaan UIN Maulana Malik Ibrahim Malang mengembangkan M-Library ini untuk memberikan beragam alternatif pintu akses kepada pengguna. Melalui M-Library ini, pengguna dapat menelusuri koleksi buku yang dimiliki oleh Perpustakaan UIN Maulana Malik Ibrahim Malang disertai informasi ketersediaan buku tersebut untuk dipinjam. Bagi anggota Perpustakaan UIN Maulana Malik Ibrahim Malang, M-Library juga menyediakan fitur untuk mengecek data pinjaman buku dengan login terlebih dahulu.'
         },
         {
-          id: 3,
-          title: 'Klasifikasi Akun Github',
-          slug: 'klasifikasi-akun-github',
-          thumbnail: 'work-AI-1.png',
-          images: ['work-AI-1.png'],
-          link: 'https://biobii.github.io/AI',
-          tech: 'Vue',
-          role: 'Algoritma dan implementasi.',
-          description: 'Aplikasi ini dibuat untuk latihan mengimplementasikan algoritma kecerdasan buatan JST (jaringan syaraf tiruan) sekaligus tugas salah satu matakuliah untuk mengklasifikasikan pengguna Github berdasarkan repository yang dimiliki. Terdapat tiga kategori yaitu Frontend programmer, Backend programmer dan Java programmer.'
+          id: 4,
+          title: 'Elite Trans Travel',
+          slug: 'elite-trans-travel',
+          thumbnail: 'work-elitetrans.png',
+          images: ['work-elitetrans.png'],
+          link: 'https://elitetransurabaya.com',
+          tech: 'Laravel',
+          role: 'Mengerjakan seluruh fitur dan dashboard untuk mengelola data.',
+          description: 'Elite Trans Travel merupakan jasa travel antar kota yang beralamat di Surabaya. Elite Trans Travel menyediakan beberapa layanan diantaranya sewa kendaraan, travel dan pengiriman barang'
+        },
+        {
+          id: 5,
+          title: 'PHP Library: Naive Bayes Classifier',
+          slug: 'library-naive-bayes-classifier',
+          thumbnail: 'library-nbc.png',
+          images: ['library-nbc.png'],
+          link: 'https://github.com/biobii/naive-bayes-text-classifier',
+          tech: 'PHP Native',
+          role: 'Implementasi algoritma Naive Bayes Classifier',
+          description: 'Experimental project untuk menerapkan algoritma Naive Bayes pada data teks. Library ini spesifik untuk klasifikasi data teks Bahasa Indonesia dan membutuhkan sekumpulan data training.'
         }
     ],
     activities: [
