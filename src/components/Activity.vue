@@ -1,7 +1,7 @@
 <template>
     <section class="section section-lg pt-0 mt-5 mb-0">
         <div class="container">
-            <div class="card bg-gradient-warning shadow-lg border-0">
+            <div class="card bg-gradient-default shadow-lg border-0">
             <div class="p-5">
                 <div class="row align-items-center">
                 <div class="col-lg-8">

@@ -1,10 +1,10 @@
 <template>
-    <section class="section pb-0 bg-gradient-warning" id="skills">
+    <section class="section pb-0 bg-gradient-primary" id="skills">
       <div class="container">
         <div class="row row-grid align-items-center">
           <div class="col-md-6 order-lg-2 ml-lg-auto">
             <div class="position-relative pl-md-5">
-              <img :src="loadAsset('ill-2.svg')" class="img-center img-fluid">
+              <img :src="loadAsset('coding.svg')" class="img-center img-fluid">
             </div>
           </div>
           <div class="col-lg-6 order-lg-1">
@@ -25,7 +25,7 @@
                 <div class="d-flex px-3">
                   <div>
                     <div class="icon icon-shape bg-gradient-danger rounded-circle text-white">
-                      <i class="ni ni-favourite-28"></i>
+                      <i class="fa fa-laravel"></i>
                     </div>
                   </div>
                   <div class="pl-4">
@@ -39,12 +39,12 @@
               <div class="card-body">
                 <div class="d-flex px-3">
                   <div>
-                    <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                      <i class="ni ni-spaceship"></i>
+                    <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
+                      <i class="fa fa-nodejs"></i>
                     </div>
                   </div>
                   <div class="pl-4">
-                    <h5 class="title text-warning">Javascript</h5>
+                    <h5 class="title text-success">Javascript</h5>
                   </div>
                 </div>
               </div>
@@ -54,8 +54,23 @@
               <div class="card-body">
                 <div class="d-flex px-3">
                   <div>
+                    <div class="icon icon-shape bg-gradient-default rounded-circle text-white">
+                      <i class="fa fa-git"></i>
+                    </div>
+                  </div>
+                  <div class="pl-4">
+                    <h5 class="title text-gray">Git</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card shadow shadow-lg--hover mt-4">
+              <div class="card-body">
+                <div class="d-flex px-3">
+                  <div>
                     <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
-                      <i class="ni ni-ui-04"></i>
+                      <i class="fa fa-bootstrap"></i>
                     </div>
                   </div>
                   <div class="pl-4">
